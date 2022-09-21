@@ -1,0 +1,140 @@
+.contact {
+  width: 100%;
+}
+
+.contact__wrapper {
+  padding-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__heading {
+  font-size: 40px;
+  text-shadow: 2px 1px 3px;
+  letter-spacing: 0.5px;
+  color: $color-green-dark;
+  text-transform: uppercase;
+  border-bottom: 5px solid $color-green;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  @media only screen and (max-width: 600px) {
+    font-size: 26px;
+  }
+}
+
+.map-box {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 0 10px $color-green;
+  border-radius: 10px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.contact__box {
+  width: 100%;
+  display: flex;
+  background-color: rgb(236, 232, 232);
+}
+
+.wrapper {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+}
+
+.first-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers-content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  @media only screen and (max-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.text {
+  font-size: 30px;
+  margin-bottom: 5px;
+  @media only screen and (max-width: 768px) {
+    margin-right: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 25px;
+  }
+}
+
+.number {
+  font-size: 26px;
+  @media only screen and (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: 768px) {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+}
+
+.form__name {
+  font-size: 26px;
+  padding: 20px;
+  transition: all 0.5s ease;
+  border: 1px solid $color-green;
+}
+
+// .form__name:placeholder-shown:hover {
+//   transform: translateY(-30px);
+// }
+
+.form__email {
+  padding: 20px;
+  font-size: 26px;
+  border: 1px solid $color-green;
+}
+
+.message {
+  font-size: 26px;
+  padding: 20px;
+  border: 1px solid $color-green;
+  color: grey;
+}
+
+.form-btn {
+  font-size: 30px;
+  padding: 10px 0;
+  background-color: $color-green;
+  color: #fff;
+  text-shadow: 0 1px 5px black;
+  clip-path: polygon(14% 2%, 87% 0, 100% 50%, 88% 99%, 14% 100%, 0% 50%);
+  border: none;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+
+.form-btn:hover {
+  box-shadow: 5px 5px 10px black;
+  transform: translateY(-5px);
+}
